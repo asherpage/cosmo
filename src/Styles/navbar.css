@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #00000000;
+    color: white;
+}
+
+@font-face {
+    font-family: main;
+    src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+* {
+    font-family: main;
+}
+
+.logo img {
+    height: 45px;
+    /* Adjust the height as needed */
+}
+
+.links a {
+    margin: 0 15px;
+    color: #484848;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.auth a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #484848;
+    text-decoration: none;
+}
+
+#blue-signup {
+    margin-right: 2rem;
+    padding: 7px 24px;
+    background-color: #BC1823;
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .links a {
+        display: none;
+    }
+
+    #blue-signup {
+        margin-right: 1rem;
+        padding: 7px 24px;
+        color: white;
+        border-radius: 5px;
+    }
+
+}
