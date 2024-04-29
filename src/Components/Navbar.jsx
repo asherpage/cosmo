@@ -1,16 +1,17 @@
 import React from 'react';
 import '../Styles/navbar.css'
+import logo from '../Styles/Images/logo.PNG';
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        {/* <img src={logo} alt="Logo" /> */}
+        <img src={logo} alt="Logo" />
       </div>
       <div className="links">
-        <a href="#">Why Choose Us?</a>
-        <a href="#">About</a>
-        <a href="#">Careers</a>
+        <a href="#">Home</a>
+        <a href="#">Record Visit</a>
+        <a href="#">Admin</a>
       </div>
       <div className="auth">
         <a href="./Signup">Sign Up</a>
