@@ -11,15 +11,13 @@
     width: 80%;
     height: 80%;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.552);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .log-left-side {
-    flex: 6;
     display: flex;
-    justify-content: center;
 }
 
 .log-left-side img {
@@ -32,7 +30,7 @@
 .log-right-side {
     flex: 4;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 h2 {
@@ -90,7 +88,11 @@ input[type='checkbox'] {
     transition: 0.3s;
 }
 
-span:hover {
+.logins:hover {
     color: #BC1823;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(10,10,10);
 }

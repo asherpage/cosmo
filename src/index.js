@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Signup from './Components/Signup';
 import Login from './Components/LoginForm';
+import Teacher from './Components/Teacher';
+import Student from './Components/Student';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,6 +20,12 @@ const router = createBrowserRouter([
   },{
     path:"/login",
     element: <Login />
+  },{
+    path:"/teacher",
+    element: <Teacher />
+  },{
+    path:"/student",
+    element: <Student />
   }
 ]);
 

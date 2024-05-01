@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import '../Styles/login.css'
 import hairski from '../Styles/Images/haor.png'
 
-const LoginForm = () => {
+const Student = () => {
   return(
     <>
     <Navbar />
@@ -13,7 +13,7 @@ const LoginForm = () => {
             <img src={hairski} alt="Image" />
         </div>
         <div className="log-right-side">
-            <h2>Login Form</h2>
+            <h2>Student Login</h2>
             <form>
                 <div className="input-group">
                     <label htmlFor="username">Username:</label>
@@ -41,4 +41,4 @@ const LoginForm = () => {
   )
 };
 
-export default LoginForm;
+export default Student;
