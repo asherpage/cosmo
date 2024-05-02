@@ -116,6 +116,7 @@ input:focus {
 .rev {
     margin-top: 2rem;
     flex-direction: row-reverse;
+    margin-bottom: 5rem;
 }
 
 .the-text {
@@ -140,12 +141,13 @@ input:focus {
 }
 
 .imagyo img {
-    height: 450px;
+    height: 500px;
     width: fit-content;
     border-radius: 250px;
 }
 .opener-button {
     height: 50px;
+    margin-top: 20px;
     padding: 0 40px;
     margin-right: 20px;
     border: none;
