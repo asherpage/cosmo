@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
-    background-color: #061e38;
+    background-color: #212121;
 }
 
 .footer-column-container {
@@ -52,7 +52,7 @@
 }
 
 .footer-bottom-container {
-    background-color: #061e38;
+    background-color: #212121;
     width: 100%;
     display: flex;
     align-items: center;

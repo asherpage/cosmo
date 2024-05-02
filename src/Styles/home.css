@@ -135,12 +135,14 @@ input:focus {
 }
 
 .the-text h5 span {
-    color: #1572D3;
+    color: #AA2F2F;
     text-decoration: underline;
 }
 
 .imagyo img {
     height: 450px;
+    width: fit-content;
+    border-radius: 250px;
 }
 .opener-button {
     height: 50px;
@@ -148,6 +150,10 @@ input:focus {
     margin-right: 20px;
     border: none;
     color: #ffffff;
-    background-color: #1571d3;
+    background-color: #AA2F2F;
     border-radius: 5px;
+}
+.opener-button:hover{
+    background-color: #90131b;
+    transition: 0.3s;
 }
