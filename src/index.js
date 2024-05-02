@@ -6,6 +6,7 @@ import Signup from './Components/Signup';
 import Login from './Components/LoginForm';
 import Teacher from './Components/Teacher';
 import Student from './Components/Student';
+import Home from './Components/Home';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,6 +27,9 @@ const router = createBrowserRouter([
   },{
     path:"/student",
     element: <Student />
+  },{
+    path:"/home",
+    element: <Home />
   }
 ]);
 
