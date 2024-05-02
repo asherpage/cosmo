@@ -2,9 +2,12 @@ import React from 'react'
 import '../Styles/home.css'
 import carro from '../Styles/Images/NW-Hairstyling-22.jpg'
 import keys from '../Styles/Images/NW-Hairstyling-22.jpg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 export const Home = () => {
   return (
     <>
+    <Navbar />
     <div className='flex-cont'>
       <div className='the-text'>
         <h1>Get An Instant Quote</h1>
@@ -25,6 +28,7 @@ export const Home = () => {
         <img src={keys}></img>
       </div>
     </div>
+    <Footer />
     </>
   )
 }
