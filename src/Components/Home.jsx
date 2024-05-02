@@ -12,7 +12,7 @@ export const Home = () => {
       <div className='the-text'>
         <h1>Elevate Your Style</h1>
         <h5>Welcome to WM Styling, a sanctuary where beauty is not just a goal, but a way of life. As you step through our doors, you're greeted by an atmosphere brimming with elegance and sophistication, where every corner exudes warmth and charm. Our team of dedicated stylists, armed with a wealth of experience and a passion for innovation, is here to elevate your hair game to new heights. <span>Read More.</span></h5>
-        <button className='opener-button'>Get Quote</button>
+        <button className='opener-button'>More Info</button>
       </div>
       <div className='imagyo'>
         <img src={carro}></img>

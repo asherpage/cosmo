@@ -10,8 +10,8 @@ const Navbar = () => {
       </div>
       <div className="links">
         <a href="./Home">Home</a>
-        <a href="#">Record Visit</a>
-        <a href="../Login">Admin</a>
+        <a href="/">Record Visit</a>
+        <a href="./admin">Admin</a>
       </div>
       <div className="auth">
         <a href="./Signup">Sign Up</a>

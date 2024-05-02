@@ -7,6 +7,7 @@ import Login from './Components/LoginForm';
 import Teacher from './Components/Teacher';
 import Student from './Components/Student';
 import Home from './Components/Home';
+import Admin from './Components/Admin';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -30,6 +31,9 @@ const router = createBrowserRouter([
   },{
     path:"/home",
     element: <Home />
+  },{
+    path:"/admin",
+    element: <Admin />
   }
 ]);
 
