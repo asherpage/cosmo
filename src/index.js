@@ -15,7 +15,7 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
   },{
     path:"/signup",
     element: <Signup />
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
     path:"/student",
     element: <Student />
   },{
-    path:"/home",
-    element: <Home />
+    path:"/visit",
+    element: <App />
   },{
     path:"/admin",
     element: <Admin />
