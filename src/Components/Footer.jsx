@@ -3,13 +3,16 @@ import '../Styles/Footer.css'; // Import your CSS file
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-
+import logo from '../Styles/Images/black.png'
 const Footer = () => {
   return (
     <>
       <footer>
         <div className="footer-content">
           <div className="footer-column-container">
+            <div className="footer-column">
+              <h4 className="footer-heading"><img className='foot-logo' src={logo}></img></h4>
+            </div>
             <div className="footer-column">
               <h4 className="footer-heading">Home</h4>
               <p className="footer-link">Why us</p>
@@ -18,21 +21,16 @@ const Footer = () => {
               <p className="footer-link">process</p>
             </div>
             <div className="footer-column">
-              <h4 className="footer-heading">Contact</h4>
-              <p className="footer-link">Forums</p>
-              <p className="footer-link">Phone</p>
-              <p className="footer-link">Email</p>
-            </div>
-            <div className="footer-column">
               <h4 className="footer-heading">Application</h4>
               <p className="footer-link">Careers</p>
               <p className="footer-link">Positions</p>
               <p className="footer-link">Why Apply</p>
             </div>
             <div className="footer-column">
-              <h4 className="footer-heading">About</h4>
-              <p className="footer-link">Our Story</p>
-              <p className="footer-link">Partners</p>
+              <h4 className="footer-heading">Logins</h4>
+              <p className="footer-link">Client</p>
+              <p className="footer-link">Student</p>
+              <p className="footer-link">Teacher</p>
             </div>
             <div className="footer-column">
               <h4 className="footer-heading">Socials</h4>
@@ -51,8 +49,8 @@ const Footer = () => {
         <div className="footer-bottom-container">
           <div className="footer-bottom-box">
             <div className="footer-extra">
-              <h1>Visit <span>A&A Corporation</span> not-for-profit parent, the <span>A&A Foundation</span>.
-                  Portions of this content are ©1998–2023 by individual <span>A&ATransport.com</span> contributors. Content available under a Creative
+              <h1>asher and andrew really made <span>Westmec Hairstyling corporation</span> not-for-profit parent, the <span>Westmec Hairstyling Foundation</span>.
+                  Portions of this content are ©1998–2023 by individual contributors. Content available under a Creative
                   Commons license.</h1>
             </div>
           </div>

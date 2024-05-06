@@ -11,13 +11,12 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     height: fit-content;
     flex-wrap: wrap;
 }
 .visit-container{
     width: 500px;
-    height: 500px;
+    height: fit-content;
 }
 .formski input {
     margin: 2% 0;
@@ -48,7 +47,7 @@ input:focus {
 }
 .history-container {
     width: 500px;
-    height: 500px;
+    height: fit-content;
 }
 .history-box{
     background-color: rgb(71, 63, 63);
@@ -89,8 +88,9 @@ input:focus {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 50%;
-    background-color: white;
+    height: 500px;
+    overflow: scroll;
+    background-color: #F9F5F2;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -172,27 +172,28 @@ input:focus {
 }
 
 .admin-flex {
-    height: fit-content;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1%;
+    
 }
 
 .admin-cards {
     width: 300px;
+    box-shadow: 3px 3px 5px rgba(36, 36, 36, 0.607);
+
     height: 350px;
     background-color: #411010;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    margin-bottom: 1%;
-    box-shadow: 3px 3px 5px rgba(36, 36, 36, 0.607);
-}
+    margin-bottom: 1%;}
 .admin-pics{
     width: 100%;
-    height: 300px;
+    height: 75%;
     background-image: url(./Images/blank.jpg);
     background-position: center;
     background-size: cover;
@@ -251,6 +252,15 @@ input:focus {
     border: none;
     background-color: #F9F5F2;
 }
+.filter-btns{
+    padding: 0px 10px;
+    background-color: #AA2F2F;
+    color: #F9F5F2;
+    border: none;
+    border-radius: 10px;
+    margin: 0 5px 20px 0;
+    transition: 0.3s;
+}
 @media screen and (max-width: 1150px) {
     .flex-cont {
             width: 100%;
@@ -294,9 +304,21 @@ input:focus {
         }
     }
     
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
     .imagyo img {
             height: 350px;
         }
+                .visit-container {
+                    width: 80%;
+                    height: fit-content;
+                }
+                .history-container {
+                    width: 80%;
+                    height: fit-content;
+                }
+                .titles{
+                    font-size: 2rem;
+                }
 
 }
+

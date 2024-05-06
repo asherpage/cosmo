@@ -8,6 +8,8 @@ import Teacher from './Components/Teacher';
 import Student from './Components/Student';
 import Home from './Components/Home';
 import Admin from './Components/Admin';
+import Appointment from './Components/Appointment';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -34,6 +36,9 @@ const router = createBrowserRouter([
   },{
     path:"/admin",
     element: <Admin />
+  },{
+    path:"/appointment",
+    element: <Appointment />
   }
 ]);
 

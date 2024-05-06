@@ -64,6 +64,7 @@
     width: 79rem;
     height: 5rem;
     border-top: 2px solid rgb(224, 224, 224);
+    padding: 0 20px;
 }
 
 .footer-extra {
@@ -84,4 +85,8 @@
     font-size: 20px;
     padding: 4px;
     margin-top: 0;
+}
+.foot-logo{
+    width: 70%;
+    height: fit-content;
 }

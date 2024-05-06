@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/navbar.css'
-import logo from '../Styles/Images/logo.PNG';
+import logo from '../Styles/Images/hairstyling.PNG';
 
 const Navbar = () => {
   return (
@@ -12,6 +12,7 @@ const Navbar = () => {
         <a href="/">Home</a>
         <a href="./visit">Record Visit</a>
         <a href="./admin">Admin</a>
+        <a href="./appointment">Appointment</a>
       </div>
       <div className="auth">
         <a href="./Signup">Sign Up</a>
