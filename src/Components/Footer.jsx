@@ -15,16 +15,14 @@ const Footer = () => {
             </div>
             <div className="footer-column">
               <h4 className="footer-heading">Home</h4>
-              <p className="footer-link">Why us</p>
-              <p className="footer-link">about</p>
-              <p className="footer-link">Testimonials</p>
+              <p className="footer-link">Hours</p>
+              <p className="footer-link">Learn more</p>
               <p className="footer-link">process</p>
             </div>
             <div className="footer-column">
-              <h4 className="footer-heading">Application</h4>
-              <p className="footer-link">Careers</p>
-              <p className="footer-link">Positions</p>
-              <p className="footer-link">Why Apply</p>
+              <h4 className="footer-heading">Visits</h4>
+              <p className="footer-link">Record</p>
+              <p className="footer-link">History</p>
             </div>
             <div className="footer-column">
               <h4 className="footer-heading">Logins</h4>
@@ -50,7 +48,7 @@ const Footer = () => {
           <div className="footer-bottom-box">
             <div className="footer-extra">
               <h1>asher and andrew really made <span>Westmec Hairstyling corporation</span> not-for-profit parent, the <span>Westmec Hairstyling Foundation</span>.
-                  Portions of this content are ©1998–2023 by individual contributors. Content available under a Creative
+                  Portions of this content are ©2003–2023 by individual contributors. Content available under a Creative
                   Commons license.</h1>
             </div>
           </div>

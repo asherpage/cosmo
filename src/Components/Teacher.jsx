@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import '../Styles/login.css'
-import hairski from '../Styles/Images/haor.png'
+import hairski from '../Styles/Images/WM Central Campus--2.jpg'
 
 const Teacher = () => {
   return(

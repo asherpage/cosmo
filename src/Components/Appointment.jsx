@@ -41,7 +41,7 @@ function Appointment() {
               onChange={(e) => setDate(e.target.value)}
             ></input>
             <input
-              placeholder='Hairstyle' // Input for hairstyle
+              placeholder='Requested Service' // Input for hairstyle
               value={hairstyle}
               onChange={(e) => setHairstyle(e.target.value)}
             ></input>

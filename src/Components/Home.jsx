@@ -4,6 +4,7 @@ import carro from '../Styles/Images/Group 2 (1).png'
 import keys from '../Styles/Images/Group 1 (1).png'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import ban from '../Styles/Images/Untitled_design__6_-removebg-preview.png'
 export const Home = () => {
   return (
     <>
